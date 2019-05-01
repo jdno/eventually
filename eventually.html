@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <title>Eventually</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="w-full h-full">
+<div class="w-full h-full flex flex-col justify-center items-center">
+  <h1 class="font-serif text-5xl my-5">Are you sure?</h1>
+
+  <div class="max-w-md">
+    <p>The site you are trying to access is on your personal blacklist.</p>
+
+    <p class="mt-5">
+      There probably was a very good reason why you added the site to the list,
+      so we want to make sure you really want to go there now.
+    </p>
+
+    <p class="mt-5">
+      Please confirm that you really want to go to <span id="eventually-url-js"></span>.
+    </p>
+  </div>
+
+  <button
+    class="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 mt-5 rounded">
+    I am sure
+  </button>
+</div>
+</body>
+</html>

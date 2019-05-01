@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Eventually",
+  "description": " A browser extension that helps users become aware of subconscious browsing habits.",
+  "version": "0.1.0",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "web_accessible_resources": [
+    "eventually.html"
+  ]
+}
